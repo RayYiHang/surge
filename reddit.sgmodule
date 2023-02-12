@@ -1,3 +1,5 @@
+#!name=reddit去广告
+#!desc=去首页流广告
 [Script]
 # reddit首页流
 reddit首页流 = type=http-response,pattern=https://gql.reddit.com/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/jsbox/main/js/reddit.js,script-update-interval=0
