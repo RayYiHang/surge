@@ -1,0 +1,13 @@
+#!name=年轮3解锁永久订阅
+#!desc=年轮3解锁永久订阅
+#软件版本:7.5.3
+#脚本作者:Hausd0rff
+#更新时间:2022-11-06
+#电报频道:https://t.me/yqc_123
+#使用声明：️仅供学习交流，🈲️商业用途
+
+[Script]
+年轮3解锁永久订阅 = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/Mematom3ProCrack.js
+
+[MITM]
+hostname= %APPEND% buy.itunes.apple.com
