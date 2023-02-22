@@ -2,7 +2,7 @@
 #!desc=deepl api重定向
 
 [MITM]
-hostname = %Append% api-free.deepl.com
+hostname = %append% api-free.deepl.com
 
 [Script]
 http-request ^https?:\/\/api-free\.deepl\.com\/v2\/translate requires-body=1,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/deepl.js
