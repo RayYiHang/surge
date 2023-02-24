@@ -2,7 +2,7 @@
 #!desc=非永久解锁sorted
 
 [MITM]
-hostname = *APPEND* api.sortedapp.com:443
+hostname = *APPEND* api.sortedapp.com
 
 [Script]
 sorted=type=http-response,pattern=^https:\/\/api\.sortedapp\.com\/receipts\/verify,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/sorted.js,script-update-interval=0
