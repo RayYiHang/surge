@@ -1,6 +1,7 @@
-let Premium = $response.body;
-var modified = JSON.parse(Premium);
-modified = {
+let temp = JSON.parse($response.body);
+let modified = {
+  "request_id" : temp["request_id"],
+  "identity" : temp["identity"],
   "product_infos" : [
     {
       "cur_svip_type" : "Crack",
