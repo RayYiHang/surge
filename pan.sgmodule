@@ -1,0 +1,9 @@
+#!name=百度网盘解锁
+#!desc=百度网盘会员解锁-下载加速不可用
+#脚本作者:LYH
+
+[Script]
+百度网盘解锁 = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/pan.js
+
+[MITM]
+hostname= %APPEND% pan.baidu.com
