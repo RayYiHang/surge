@@ -1,0 +1,11 @@
+#!name=用药助手会员解锁
+#!desc=支持 v13.16
+#脚本作者:ios151 
+#更新时间:2023.11.15
+
+[Script]
+解锁 = type=http-response,pattern=https://newdrugs.dxy.cn/app/user/pro/stat?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/yyzs2.js
+获取header = type=http-request,pattern=^https://newdrugs.dxy.cn,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/yyzscook.js
+
+[MITM]
+hostname = %APPEND% newdrugs.dxy.cn
