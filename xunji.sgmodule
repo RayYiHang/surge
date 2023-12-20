@@ -1,8 +1,8 @@
-#训记
-#脚本作者:ios151
+#!name=训记
+#!desc=脚本作者:ios151
 
 [Script]
-xunji61109 = type=http-request,pattern=^https:\/\/api\.xunjiapp\.cn\/whole_user_info_v4,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Script/main/xunji61109.js
+xunji61109 = type=http-request,pattern=^https:\/\/api\.xunjiapp\.cn\/whole_user_info_v4,requires-body=0,max-size=0,script-path=https://cdn.jsdelivr.net/gh/Yu9191/Script@main/xunji61109.js
 
 [MITM]
 hostname= %APPEND% api.xunjiapp.cn
