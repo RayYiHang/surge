@@ -1,0 +1,71 @@
+# 屏蔽 t1-1.p-cdn.us
+DOMAIN,t1-1.p-cdn.us
+
+# 屏蔽 t2-1.p-cdn.us
+DOMAIN,t2-1.p-cdn.us
+
+# 屏蔽 t2-5.p-cdn.us
+DOMAIN,t2-5.p-cdn.us
+
+# 屏蔽 t1-3.p-cdn.us
+DOMAIN,t1-3.p-cdn.us
+
+# 屏蔽 t2-2.p-cdn.us
+DOMAIN,t2-2.p-cdn.us
+
+# 屏蔽 t2-4.p-cdn.us
+DOMAIN,t2-4.p-cdn.us
+
+# 屏蔽 t1-2.p-cdn.us
+DOMAIN,t1-2.p-cdn.us
+
+# 屏蔽 t2-3.p-cdn.us
+DOMAIN,t2-3.p-cdn.us
+
+# 屏蔽 t1-4.p-cdn.us
+DOMAIN,t1-4.p-cdn.us
+
+# 屏蔽 t1-5.p-cdn.us
+DOMAIN,t1-5.p-cdn.us
+
+# 屏蔽 t3-3.p-cdn.us
+DOMAIN,t3-3.p-cdn.us
+
+# 屏蔽 t3-1.p-cdn.us
+DOMAIN,t3-1.p-cdn.us
+
+# 屏蔽 t3-2.p-cdn.us
+DOMAIN,t3-2.p-cdn.us
+
+# 屏蔽 t3-4.p-cdn.us
+DOMAIN,t3-4.p-cdn.us
+
+# 屏蔽 t3-5.p-cdn.us
+DOMAIN,t3-5.p-cdn.us
+
+# 屏蔽 pandoramedia.sc.omtrdc.net
+DOMAIN,pandoramedia.sc.omtrdc.net
+
+# 屏蔽 ad.pandora.tv
+DOMAIN,ad.pandora.tv
+
+# 屏蔽 ads.pandora.tv.net
+DOMAIN,ads.pandora.tv.net
+
+# 屏蔽 stats.pandora.com
+DOMAIN,stats.pandora.com
+
+# 屏蔽 adserver.pandora.com
+DOMAIN,adserver.pandora.com
+
+# 屏蔽 pubads.g.doubleclick.net
+DOMAIN,pubads.g.doubleclick.net
+
+# 屏蔽 lt501.tritondigital.com
+DOMAIN,lt501.tritondigital.com
+
+# 屏蔽 ad.doubleclick.net
+DOMAIN,ad.doubleclick.net
+
+# 屏蔽 z.moatads.com
+DOMAIN,z.moatads.com
