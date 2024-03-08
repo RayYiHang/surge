@@ -1,4 +1,4 @@
-var temp = JSON.parse($response.body);
+let temp = JSON.parse($response.body);
 
 if (temp) {
   temp["pro_plan"] = "pro_premium";
@@ -20,10 +20,12 @@ if (temp) {
     is_renewal_active: false,
     is_renewal_paused: false,
   };
-  temp["badges"][0] = {
-    name: "pro:pro_premium",
-    verbose_name: "Premium",
-  };
+  if (temp["badges"]) {
+    temp["badges"][0] = {
+      name: "pro:pro_premium",
+      verbose_name: "Premium",
+    };
+  }
   $done({ body: JSON.stringify(temp) });
 } else {
   $done({});
