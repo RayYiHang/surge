@@ -1,0 +1,11 @@
+#!name=simplewallstreet无限制浏览
+#!desc=simplewallstreet无限制浏览
+#软件版本:1.0.0
+#脚本作者:arcadia
+#更新时间:2024-03-08
+
+[Script]
+simplewallcrack = type=http-response,pattern=https:\/\/simplywall\.st\/api\/user\/company\/limit,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/simplewallcrack.js
+
+[MITM]
+hostname= %APPEND% simplywall.st
