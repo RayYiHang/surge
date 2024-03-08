@@ -11,7 +11,7 @@ if (temp) {
     promo_available_timestamp: null,
     merchant: "apple",
     next_billing_cycle: "m",
-    pro_plan_expire_on: 3712552491,
+    pro_plan_expire_on: 4712552491,
     is_lite_plan: false,
     is_trial_available: false,
     next_pro_plan: "pro_premium",
