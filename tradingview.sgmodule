@@ -1,0 +1,11 @@
+#!name=TradingView 解锁Pro永久版
+#!desc=TradingView 解锁Pro永久版
+#软件版本:1.0
+#脚本作者:Yihang
+#更新时间:2024-03-08
+
+[Script]
+tradingviewcrack = type=http-response,pattern=^https:\/\/cn\.tradingview\.com\/api\/v1\/user\/profile\/me\/$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/AnyBoxProCrack.js
+
+[MITM]
+hostname= %APPEND% cn.tradingview.com
