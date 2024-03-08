@@ -5,7 +5,7 @@
 #更新时间:2024-03-08
 
 [Script]
-tradingviewcrack = type=http-response,pattern=^https:\/\/cn\.tradingview\.com\/api\/v1\/user\/profile\/me\/$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/AnyBoxProCrack.js
+tradingviewcrack = type=http-response,pattern=^https:\/\/cn\.tradingview\.com\/api\/v1\/user\/profile\/me\/$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/tradingViewCrack.js
 
 [MITM]
 hostname= %APPEND% cn.tradingview.com
