@@ -1,6 +1,6 @@
-var res = JSON.parse($response.body);
+let res = JSON.parse($response.body);
 
-if (res["subscription"]) {
+if (!res["subscription"]) {
   res["subscription"] = 1;
   $done({ body: JSON.stringify(res) });
 } else {
