@@ -1,0 +1,10 @@
+#!name=tradytics解锁
+#!desc=tradytics解锁永久版
+#脚本作者:LYH
+#更新时间:2024-03-09
+
+[Script]
+tradytics解锁 = type=http-response,pattern=https:\/\/tradytics\.com\/get_user_state,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/tradytics.js
+
+[MITM]
+hostname= %APPEND% tradytics.com
