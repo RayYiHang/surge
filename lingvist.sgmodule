@@ -5,7 +5,7 @@
 #更新时间:2023-9-27
 
 [Script]
-Lingvist——解锁订阅 = type=http-response,pattern=^https:\/\/payment-api\.lingvist\.com\/1\.4\/user\/services,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/lingvist.js
+Lingvist——解锁订阅 = type=http-response,pattern=^https:\/\/payment-api\.lingvist\.com\/1\.\d\/user\/services,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/lingvist.js
 
 [MITM]
 hostname= %APPEND% payment-api.lingvist.com
