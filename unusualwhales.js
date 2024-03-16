@@ -1,7 +1,65 @@
 if ($response.body) {
-  var body = $response.body.replace(/false/g, true);
+  var objc = JSON.parse($response.body);
 
-  $done({ body });
+  objc = {
+    is_admin: false,
+    id: "9c1acbdf-9037-4337-956b-6546265ca67a",
+    paypal_customer_id: null,
+    android_token: null,
+    is_partner: false,
+    is_annual: false,
+    see_desktop_notifications: false,
+    user_type: "regular",
+    next_payment: null,
+    metamask_address: null,
+    username: null,
+    is_editor: false,
+    created: "2024-03-16T08:13:16.794375Z",
+    is_lifetime: true,
+    stock_alert: true,
+    agreed_to_super_terms: false,
+    discord_user_id: null,
+    has_canceled: null,
+    spac_alert: false,
+    is_triannual: false,
+    current_plan: null,
+    wants_runner_alerts: false,
+    is_pro: true,
+    mobile_device_type_production: null,
+    user_referral_code_text: "a8c86a30-ac67-48e3-94f7-1e1d031b6d07",
+    api_subscription: "none",
+    see_mobile_notifications: true,
+    is_version_two: false,
+    enrolled: false,
+    name: null,
+    referral_balance: "0",
+    email: "unusualwhales@leiyihang.eu.org",
+    mobile_device_type_staging: null,
+    senate_alert: false,
+    furu_alert: false,
+    has_onboarded: true,
+    user_level: 1,
+    new_push_staging_token: null,
+    alert_mode: "recommended",
+    new_push_prod_token: null,
+    is_premium: true,
+    old_stripe: false,
+    stripe_customer_id: null,
+    wants_top_news: true,
+    discord_username: null,
+    referral_code_used: null,
+    has_portfolio_access: true,
+    see_all_alerts: true,
+    is_reader_tier: true,
+    subscription_price: null,
+    subscription_level: "free",
+    has_nft: false,
+    profile_pic_url: null,
+    is_super: false,
+    is_ptn_pro: true,
+  };
+
+  $done({ body: JSON.stringify(objc) });
 } else {
   $done({ body: JSON.stringify({}) });
 }
