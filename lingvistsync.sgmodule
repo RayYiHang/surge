@@ -1,0 +1,11 @@
+#!name=Lingvist——解锁订阅2
+#!desc=Lingvist——解锁订阅2
+#软件版本:2.59.1
+#脚本作者:LYH
+#更新时间:2023-9-27
+
+[Script]
+Lingvistsync——解锁订阅2 = type=http-response,pattern=^https:\/\/api\.lingvist\.com\/1\.\d\/user\/sync,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RayYiHang/surge/main/lingvistsync.js
+
+[MITM]
+hostname= %APPEND% api.lingvist.com
