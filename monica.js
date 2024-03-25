@@ -1,8 +1,8 @@
 if ($response.body) {
   var objc = JSON.parse($response.body);
   if (objc["user_id"]) {
-    temp_user = objc["user_id"];
-    objc = {
+    var temp_user = objc["user_id"];
+    var new_objc = {
       msg: "ok",
       vip_status: {
         invite_event_start: -1,
@@ -45,7 +45,7 @@ if ($response.body) {
     };
   }
 
-  $done({ body: JSON.stringify(objc) });
+  $done({ body: JSON.stringify(new_objc) });
 } else {
   $done({ body: JSON.stringify({}) });
 }
