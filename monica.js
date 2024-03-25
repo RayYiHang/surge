@@ -27,7 +27,7 @@ if ($response.body) {
       unlimited_queries_invite_success_count: 0,
       current_period_start: 1711363495,
       cancel_at_period_end: false,
-      user_id: objc["user_id"],
+      user_id: 961913,
       total_point: 6000,
       giveaway_vip_status: null,
       current_period_end: 9711622695,
