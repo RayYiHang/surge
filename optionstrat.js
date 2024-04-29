@@ -5,7 +5,7 @@
   "delinquent" : false,
   "motd" : null,
   "referral" : null,
-  "liveData" : true,
+  "liveData" : false,
   "discordName" : null,
   "hasSignedAgreement" : true,
   "cancelled" : false,
