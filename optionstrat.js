@@ -1,4 +1,3 @@
-if ($response.body) {
   var objc = JSON.parse($response.body);
 
   objc = {
@@ -28,7 +27,4 @@ if ($response.body) {
   "subscriptionPlatform" : "appStore"
 };
 
-  $done({ body: JSON.stringify(objc) });
-} else {
-  $done({ body: JSON.stringify({}) });
-}
+$done({ body: JSON.stringify(objc) });
