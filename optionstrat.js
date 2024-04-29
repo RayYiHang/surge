@@ -1,6 +1,4 @@
-  var objc = JSON.parse($response.body);
-
-  objc = {
+  var objc = {
   "email" : "leiyihang12345@gmail.com",
   "uuid" : "89bf4fca-83d6-4aef-8616-7ea3ff296345",
   "config" : null,
